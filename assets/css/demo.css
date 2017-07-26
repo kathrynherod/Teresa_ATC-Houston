@@ -221,7 +221,7 @@
 .parallax .motivation{
     color: #FFFFFF;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    top: 400px;
+    top: 300px;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -258,8 +258,13 @@
    }
    .parallax .motivation {
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    padding: 5px;
-    font-size: 20px !important ;
+    padding: 15px;
+    font-size: 18px !important ;
+    top: 22vw;
+    text-align: justify;
+   }
+   #motivation-break {
+    display: none;
    }
 }
 
@@ -981,5 +986,14 @@
     width: 100%;
     height: auto;
     position: center center;
-    
+
+}
+#card-1-bg {
+    background-color: #679436;
+}
+#card-2-bg {
+    background-color: #05668d;
+}
+#card-3-bg {
+    background-color: #a5be00;
 }

@@ -2116,7 +2116,7 @@ input.ct-red + span + label + span.switch-right {
 }
 
 .navbar-ct-green {
-  background-color: rgba(76, 217, 100, 0.98);
+  background-color: rgba(103, 148, 54, 0.98);
 }
 
 .navbar-ct-orange {
@@ -5703,7 +5703,7 @@ body > .navbar-collapse.collapse {
 /*          Changes for small display      */
 @media (max-width: 767px) {
   .navbar-transparent {
-    padding-top: 15px;
+    padding-top: 5px;
     background-color: rgba(0, 0, 0, 0.45);
   }
 

@@ -37,7 +37,7 @@
 
 .parallax {
   width: 100%;
-  height: 570px;
+  height: auto;
   overflow: hidden;
   display: block;
 }
