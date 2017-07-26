@@ -4687,6 +4687,7 @@ body > .navbar-collapse.collapse {
 }
 .panel-group .panel-title {
   font-size: 18px;
+  color: #05668d;
 }
 .panel-group .panel-title a:hover, .panel-group .panel-title a:focus {
   text-decoration: none;
