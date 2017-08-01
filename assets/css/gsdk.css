@@ -1581,6 +1581,7 @@ input.ct-red + span + label + span.switch-right {
   padding: 30px 0;
   position: relative;
   background-color: #FFFFFF;
+
 }
 
 .section-gray {
@@ -2129,8 +2130,8 @@ input.ct-red + span + label + span.switch-right {
 
 .navbar-transparent {
   padding-top: 15px;
-  background-color: transparent;
-  border-bottom: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.15);
+ 
 }
 
 .navbar-toggle {
@@ -3917,13 +3918,17 @@ body > .navbar-collapse.collapse {
 }
 
 /*            Navigation menu                */
+.nav-justified {
+  padding-bottom: 10px;
+}
+
 .nav-pills > li + li {
   margin-left: 0;
 }
 .nav-pills > li > a {
-  border: 1px solid #2CA8FF;
+  border: 1px solid #05668d;;
   border-radius: 0;
-  color: #2CA8FF;
+  color: #05668d;;
   margin-left: -1px;
 }
 .nav-pills > li > a:hover, .nav-pills > li > a:focus {
@@ -3932,12 +3937,12 @@ body > .navbar-collapse.collapse {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  background-color: #2CA8FF;
+  background-color: #05668d;
   color: #FFFFFF;
 }
 .nav-pills > li:first-child > a {
   border-radius: 4px 0 0 4px;
-  margin: 0;
+ 
 }
 .nav-pills > li:last-child > a {
   border-radius: 0 4px 4px 0;
@@ -4687,7 +4692,7 @@ body > .navbar-collapse.collapse {
 }
 .panel-group .panel-title {
   font-size: 18px;
-  color: #05668d;
+  color: white;
 }
 .panel-group .panel-title a:hover, .panel-group .panel-title a:focus {
   text-decoration: none;
@@ -4700,7 +4705,8 @@ body > .navbar-collapse.collapse {
 }
 .panel-group .panel-title a:hover,
 .panel-group .panel-title a:focus {
-  color: #777777;
+  text-decoration: underline;
+  color: white;
 }
 .panel-group .panel-default > .panel-heading + .panel-collapse.gsdk-collapse > .panel-body {
   box-shadow: inset 0 7px 10px -7px rgba(0, 0, 0, 0.14);

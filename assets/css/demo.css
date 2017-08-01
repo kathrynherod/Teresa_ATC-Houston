@@ -997,3 +997,21 @@
 #card-3-bg {
     background-color: #a5be00;
 }
+#sub-service {
+    text-align: center;
+}
+.grow:hover {
+transition: all .2s ease-in-out;
+}
+.therapy-type {
+    text-align: center;
+    padding: 5px;
+    margin: 5px 35% 5px 35%;
+    border: 1px solid #05668d;
+    width: 30% ;
+
+}
+#play-therapy {
+    
+
+}
