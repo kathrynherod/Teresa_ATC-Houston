@@ -36,22 +36,9 @@
                     <li>
                         <a href="#services">Services</a>
                     </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Resources <b class="caret"></b></a>
-                        <ul class="dropdown-menu dropdown-with-icons">
-                            <li>
-                                <a href="#"><i class="pe-7s-angle-right"></i> Articles</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="pe-7s-angle-right"></i> Videos</a>
-                            </li>
-                        </ul>
-                    </li>
+                    
                     <li>
-                        <a href="#">Classes</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-round btn-default" href="#">Contact Us</a>
+                        <a class="btn btn-round btn-default" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -64,7 +51,7 @@
     <div class="wrapper">
         <!-- start header video -->
         <div class="parallax">
-            <video autoplay="" id="video-header" loop="" poster="" src="assets/img/mov/playground.mp4"></video>
+            <video controls autoplay loop id="video-header"  poster="" src="assets/img/mov/playground.mp4"></video>
             <div class="motto"></div>
             <h3 class="motivation">We offer a full range of mental health services with a special<br id="motivation-break">
             emphasis on the needs of children, adolescents, and families.</h3>
@@ -106,7 +93,7 @@
         </div>
         <!-- end section/about us -->
         <!-- meet the staff section -->
-        <div class="section section-gray">
+        <div class="section section-gray" id="staff">
             <div class="container">
                 <h2 class="section-title">Meet our Staff</h2>
                 <div class="team-presentation">
@@ -201,23 +188,23 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        <a href="#svc-start">Play Therapy</a>
+                                        <a href="#PLAYTHERAPY">Play Therapy</a>
                                     </td>
                                     <td>
-                                        <a href="#PLAYTHERAPY">Sandtray Therapy</a>
+                                        <a href="#SANDTRAY">Sandtray Therapy</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#SANDTRAY">Theraplay</a>
+                                        <a href="#THERAPLAY">Theraplay</a>
                                     </td>
                                     <td>
-                                        <a href="#THERAPLAY">EMDR</a>
+                                        <a href="#EMDR">EMDR</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><a href="#EMDR">Attachment Therapy</a></td>
-                                    <td><a href="#ATTACHMENT">Trauma Therapy</a></td>
+                                    <td><a href="#ATTACHMENT">Attachment Therapy</a></td>
+                                    <td><a href="#TRAUMA">Trauma Therapy</a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -952,47 +939,126 @@
                 <!--end row for collapsable groups-->
                 <!-- end section services -->
             </div>
-            </div>
-            <!-- end wrapper -->
-            <!--  jQuery and Bootstrap core files    -->
-            <script src="assets/js/jquery.js" type="text/javascript">
-            </script>
-            <script src="assets/js/jquery-ui.custom.min.js" type="text/javascript">
-            </script>
-            <script src="bootstrap3/js/bootstrap.min.js" type="text/javascript">
-            </script>
-            <!--  Plugins -->
-            <script src="assets/js/gsdk-checkbox.js">
-            </script>
-            <script src="assets/js/gsdk-morphing.js">
-            </script>
-            <script src="assets/js/gsdk-radio.js">
-            </script>
-            <script src="assets/js/gsdk-bootstrapswitch.js">
-            </script>
-            <script src="assets/js/bootstrap-select.js">
-            </script>
-            <script src="assets/js/bootstrap-datepicker.js">
-            </script>
-            <script src="assets/js/chartist.min.js">
-            </script>
-            <script src="assets/js/jquery.tagsinput.js">
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js" type="text/javascript">
-            </script>
-            <!--  Get Shit Done Kit PRO Core javascript      -->
-            <script src="assets/js/get-shit-done.js">
-            </script>
-            <script src="assets/js/demo.js">
-            </script>
-            <script type="text/javascript">
-            $().ready(function() {
-                $(window).on('scroll', gsdk.checkScrollForTransparentNavbar);
-            });
-            </script>
-            <!-- If you are using TypeKit.com uncomment this code otherwise you can delete it -->
         </div>
+        <div class="section section-gray" id="contact">
+            <div class="container">
+                <h2 class="section-title" id="svc-start">Contact Us</h2>
+                <div class="row">
+                    <!-- START OF LEFT SIDE CONTENT -->
+                    <div class="col-md-8">
+                        <section>
+                            <div class="heading">
+                                <h3>We are here to help you</h3>
+                            </div>
+                            <p>Please complete this form and someone from our office will get back with you as soon as possible. We are looking forward to speaking with you. We are committed to your privacy. <span style="color:red"> Do not include confidential or private information regarding your health condition in this form or any other form found on this website. </span>This form is for general questions or messages to the practitioner.</p>
+                            <br>
+                            <div id="wufoo-z15xdqdg1lk6xem">
+                                Fill out my <a href="https://tbrowntherapy.wufoo.com/forms/z15xdqdg1lk6xem">online form</a>.
+                            </div>
+                            <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+                            <script type="text/javascript">
+                            var z15xdqdg1lk6xem;
+                            (function(d, t) {
+                                var s = d.createElement(t),
+                                    options = {
+                                        'userName': 'tbrowntherapy',
+                                        'formHash': 'z15xdqdg1lk6xem',
+                                        'autoResize': true,
+                                        'height': '866',
+                                        'async': true,
+                                        'host': 'wufoo.com',
+                                        'header': 'show',
+                                        'ssl': true
+                                    };
+                                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                                s.onload = s.onreadystatechange = function() {
+                                    var rs = this.readyState;
+                                    if (rs)
+                                        if (rs != 'complete')
+                                            if (rs != 'loaded') return;
+                                    try {
+                                        z15xdqdg1lk6xem = new WufooForm();
+                                        z15xdqdg1lk6xem.initialize(options);
+                                        z15xdqdg1lk6xem.display();
+                                    } catch (e) {}
+                                };
+                                var scr = d.getElementsByTagName(t)[0],
+                                    par = scr.parentNode;
+                                par.insertBefore(s, scr);
+                            })(document, 'script');
+                            </script>
+                            <br>
+                        </section>
+                    </div>
+                    <!-- END OF LEFT SIDE CONTENT -->
+                    <!-- START OF RIGHT SIDE CONTENT -->
+                    <div class="col-md-4">
+                        <section>
+                          
+                                <h3>Office Address</h3>
+                                <a class="" href="https://www.google.com/maps/place/Teresa+Brown,+LPC/@29.6226898,-95.5966988,17z/data=!4m5!3m4!1s0x8640e6531165f635:0xe1123dd0e85c973a!8m2!3d29.62289!4d-95.59681" target="_blank">
+                                    <p class="lead">The Atrium at Sugar Creek
+                                        <br>101 Southwestern Blvd.
+                                        <br>Suite 105
+                                        <br>Sugar Land, Tx 77478</a>
+                                <br>
+                                </p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3468.3441579430482!2d-95.59910358489473!3d29.622745982037674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e6531247c939%3A0x917e18dbabf449fb!2s101+Southwestern+Blvd%2C+Sugar+Land%2C+TX+77478!5e0!3m2!1sen!2sus!4v1467762345632" width="100%" height="200" frameborder="1" style="border:1" allowfullscreen align="middle"></iframe>
+                                <h3 class="text-uppercase">Call Us</h3>
+                                <strong><p class="lead"><a href="tel:[2815048004]"><i class="fa fa-phone"></i>281-504-8004</a> </p></strong>
+                                <h3 class="text-uppercase">Email Us</h3>
+                                <p class="text-muted">Please feel free to write an email if you prefer not to use the contact form. Do not include confidential or private information regarding your health condition in this email or any other form found on this website. </p>
+                                <p class="lead"><a href="mailto:teresab@atchouston.com"><i class="fa fa-envelope"></i> teresab@atchouston.com</a></p>
+                       
+                        </section>
+                    </div>
+                    <!-- END OF RIGHT SIDE CONTENT -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /#contact.container -->
+        </div>
+        <!-- /#content -->
+        
     </div>
+    <!--wrapper-->
+    <!-- end wrapper -->
+    <!--  jQuery and Bootstrap core files    -->
+    <script src="assets/js/jquery.js" type="text/javascript">
+    </script>
+    <script src="assets/js/jquery-ui.custom.min.js" type="text/javascript">
+    </script>
+    <script src="bootstrap3/js/bootstrap.min.js" type="text/javascript">
+    </script>
+    <!--  Plugins -->
+    <script src="assets/js/gsdk-checkbox.js">
+    </script>
+    <script src="assets/js/gsdk-morphing.js">
+    </script>
+    <script src="assets/js/gsdk-radio.js">
+    </script>
+    <script src="assets/js/gsdk-bootstrapswitch.js">
+    </script>
+    <script src="assets/js/bootstrap-select.js">
+    </script>
+    <script src="assets/js/bootstrap-datepicker.js">
+    </script>
+    <script src="assets/js/chartist.min.js">
+    </script>
+    <script src="assets/js/jquery.tagsinput.js">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js" type="text/javascript">
+    </script>
+    <script src="assets/js/gsd.js">
+    </script>
+    <script src="assets/js/demo.js">
+    </script>
+    <script type="text/javascript">
+    $().ready(function() {
+        $(window).on('scroll', gsdk.checkScrollForTransparentNavbar);
+    });
+    </script>
+    <!-- If you are using TypeKit.com uncomment this code otherwise you can delete it -->
 </body>
 
 </html>
