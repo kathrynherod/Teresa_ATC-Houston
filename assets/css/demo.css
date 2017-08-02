@@ -226,7 +226,7 @@
     text-align: center;
     width: 100%;
     font-style: italic;
-/*     font-size: 25px; */
+    font-size: 2vw; 
 }
 .parallax .motto .border{
     float: left;
@@ -259,9 +259,9 @@
    .parallax .motivation {
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
     padding: 15px;
-    font-size: 18px !important ;
+    font-size: 2.5vw !important ;
     top: 22vw;
-    text-align: justify;
+    
    }
    #motivation-break {
     display: none;
@@ -1011,7 +1011,14 @@ transition: all .2s ease-in-out;
     width: 30% ;
 
 }
-#play-therapy {
-    
-
+.header-container {
+    width: 95%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.right {
+    text-align: right;
+}
+.darken {
+    color:#5f5f5f;
 }

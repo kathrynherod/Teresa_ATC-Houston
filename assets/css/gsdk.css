@@ -59,11 +59,13 @@ h3, .h3 {
 h4, .h4 {
   font-size: 22px;
   line-height: 30px;
+   color:#7c7c7c;
 }
 
 h5, .h5 {
   font-size: 18px;
   margin-bottom: 15px;
+  color:#7c7c7c;
 }
 
 h6, .h6 {
@@ -76,6 +78,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   text-align: justify;
+  color: #7c7c7c;
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
@@ -1885,8 +1888,23 @@ input.ct-red + span + label + span.switch-right {
 .navbar .navbar-brand {
   font-weight: 600;
   margin: 5px 0px;
-  padding: 20px 15px;
-  font-size: 20px;
+  padding: 2.75vw 1.5vw;
+  font-size: 3vw;
+}
+@media (max-width: 767px) {
+  .navbar .navbar-brand {
+    padding: 3vw 1.5vw;
+    font-size: 3.75vw;
+    margin-top: 15px;
+  }
+
+}
+@media (min-width: 768px) {
+  .navbar .navbar-brand {
+    padding-top: 15px;
+    font-size: 2.5vw;
+    margin-top: 10px;
+  }
 }
 .navbar .navbar-nav > li > a {
   padding: 10px 15px;
@@ -4677,6 +4695,7 @@ body > .navbar-collapse.collapse {
   .card-horizontal .content {
     padding: 15px 15px 10px 0;
   }
+
 }
 .panel-group .panel {
   border: 0;
@@ -5780,10 +5799,11 @@ body > .navbar-collapse.collapse {
   }
 
   .navbar-header .navbar-toggle {
-    margin-top: 17px;
-    margin-bottom: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 40px;
     height: 40px;
+    padding: 3vw 1.5vw;
   }
 
   .bar1,
