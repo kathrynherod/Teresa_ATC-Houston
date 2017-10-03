@@ -82,7 +82,7 @@ p {
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
-  color: #9A9A9A;
+  color: #555;
   font-weight: 300;
   line-height: 1.5;
 }
@@ -120,6 +120,8 @@ h1 .subtitle {
 /*     General overwrite     */
 body {
   font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+  font-size: 16px;
+  color: #7c7c7c;
 }
 
 a {
@@ -6385,3 +6387,19 @@ body > .navbar-collapse.collapse {
   padding: 0 0 3px;
   display: block;
 }
+.red {
+  color: red;
+}
+.italics {
+  font-style: italic;
+}
+
+.section-title-service {
+  padding-top:80px;
+  margin-top:-80px;
+  margin-bottom: 30px;
+  }
+  .tab-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
